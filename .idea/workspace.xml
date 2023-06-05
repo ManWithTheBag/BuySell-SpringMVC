@@ -10,12 +10,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fada463c-057b-4c1a-839a-4e60c6e2e20a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/doit/controller/ItemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/doit/modul/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/item.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/main-template.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/doit/config/PersistenceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/doit/dao/ItemDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/persistence.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/test.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/test.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/doit/config/WebAppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/doit/config/WebAppInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/doit/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/doit/controller/ItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/doit/modul/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/doit/modul/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/item.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/item.ftl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +30,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -55,8 +60,9 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/WebDev_Learning/IntellijProjects/LearningProject_SpringMVC",
+    "last_opened_file_path": "D:/WebDev_Learning/IntellijProjects/BuySell-SpringMVC",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -67,6 +73,11 @@
     "settings.editor.selected.configurable": "preferences.sourceCode",
     "spring.configuration.checksum": "06785f8b839a1d96fad79844bb58f5d2",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
   <component name="RunDashboard">
@@ -171,7 +182,10 @@
       <updated>1684849450689</updated>
       <workItem from="1684849451862" duration="5800000" />
       <workItem from="1685626404018" duration="402000" />
-      <workItem from="1685626886880" duration="5040000" />
+      <workItem from="1685626886880" duration="5257000" />
+      <workItem from="1685921001798" duration="4196000" />
+      <workItem from="1685929857366" duration="2365000" />
+      <workItem from="1685972429887" duration="4905000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1684849627327</created>
@@ -187,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684855190409</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add: &#10;main macros for freemarker&#10;create Item object&#10;create ItemController">
+      <created>1685632127152</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685632127152</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,7 +263,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Configured default configurations and dependencies for web" />
-    <option name="LAST_COMMIT_MESSAGE" value="Configured default configurations and dependencies for web" />
+    <MESSAGE value="Add: &#10;main macros for freemarker&#10;create Item object&#10;create ItemController" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add: &#10;main macros for freemarker&#10;create Item object&#10;create ItemController" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

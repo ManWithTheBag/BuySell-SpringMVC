@@ -1,13 +1,12 @@
 package org.doit.modul;
 
-import org.springframework.stereotype.Component;
-
 
 public class Item {
     private int id;
     private String name;
     private float cost;
     private String description;
+
 
     //region Setters
     public  void setId(int id){this.id = id;}
