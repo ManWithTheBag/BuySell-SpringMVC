@@ -7,6 +7,7 @@ import org.springframework.context.annotation.PropertySource;
 import org.springframework.core.env.Environment;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
+import org.springframework.orm.hibernate5.LocalSessionFactoryBean;
 
 @Configuration
 @PropertySource("classpath:persistence.properties")
@@ -15,7 +16,7 @@ public class PersistenceConfig {
     Environment env;
 
     @Bean
-    public JdbcTemplate jdbcTemplate(@Autowired DriverManagerDataSource dataSource){
+    public JdbcTemplate jdbcTemplate(DriverManagerDataSource dataSource){
         return new JdbcTemplate(dataSource);
     }
 
@@ -29,4 +30,13 @@ public class PersistenceConfig {
 
         return dataSource;
     }
+
+//   @Bean
+//    public LocalSessionFactoryBean localSessionFactoryBean(DriverManagerDataSource dataSource){
+//       LocalSessionFactoryBean localSessionFactoryBean = new LocalSessionFactoryBean();
+//        localSessionFactoryBean.setDataSource(dataSource);
+//
+//
+//        return localSessionFactoryBean;
+//    }
 }
